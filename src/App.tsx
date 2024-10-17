@@ -1,6 +1,6 @@
-import React from 'react';
-import { Player } from '@remotion/player';
-import { QRCodeVideo } from './QRCodeVideo';
+import React from "react";
+import { Player } from "@remotion/player";
+import { QRCodeVideo } from "./QRCodeVideov2";
 
 const App: React.FC = () => {
   return (
@@ -13,8 +13,8 @@ const App: React.FC = () => {
           compositionHeight={800}
           fps={30}
           style={{
-            width: '100%',
-            aspectRatio: '3 / 2',
+            width: "100%",
+            aspectRatio: "3 / 2",
           }}
           controls
         />
